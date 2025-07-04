@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestCatImageFromAPI", "RequestCatImageFromAPI\RequestCatImageFromAPI.csproj", "{55EF5CA9-8C94-4703-B222-5DC2BB9F4236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55EF5CA9-8C94-4703-B222-5DC2BB9F4236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EF5CA9-8C94-4703-B222-5DC2BB9F4236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EF5CA9-8C94-4703-B222-5DC2BB9F4236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EF5CA9-8C94-4703-B222-5DC2BB9F4236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B13FF65-62AE-4E38-A9DC-F572D99B9A18}
+	EndGlobalSection
+EndGlobal
