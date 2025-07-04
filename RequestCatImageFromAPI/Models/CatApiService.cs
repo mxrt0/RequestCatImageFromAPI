@@ -21,15 +21,11 @@ namespace RequestCatImageFromAPI.Models
         {
             Console.WriteLine(JsonResponse);
             var catResponse = JsonSerializer.Deserialize<CatApiResponse[]>(JsonResponse); // response returns array
-            //if (catResponse is null || catResponse.Count == 0 )
-            //{
-            //    throw new Exception("No cat images found in the response.");
-            //}
-            //Console.WriteLine($"Count: {catResponse?.Count}");
-            //if (catResponse?.Count > 0)
-            //{
-            //    Console.WriteLine($"First Url: {catResponse[0].Url}");
-            //}
+            if (catResponse is null || catResponse.Length == 0 )
+            {
+                throw new Exception("No cat images found in the response.");
+            }
+            
             var catImageURL = catResponse?[0]?.Url; // we only need the URL of the (only) array object
             if (string.IsNullOrEmpty(catImageURL))
             {

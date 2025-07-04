@@ -27,7 +27,6 @@ namespace RequestCatImageFromAPI.Models
                     Console.WriteLine("Downloading cat image...");
                     var requestResult = await client.GetAsync(ImageURL);
 
-
                     requestResult.EnsureSuccessStatusCode();
 
                     // Save image to desired path
